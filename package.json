@@ -1,0 +1,25 @@
+{
+  "name": "redux-toolkit-learnings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeitharshad/redux-toolkit-learnings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/codeitharshad/redux-toolkit-learnings/issues"
+  },
+  "homepage": "https://github.com/codeitharshad/redux-toolkit-learnings#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.7.0",
+    "redux-logger": "^3.0.6"
+  }
+}
