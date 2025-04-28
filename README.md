@@ -3,6 +3,19 @@
 
 ---
 
+# ⚡ Redux vs Redux Toolkit Comparison
+
+| 🏛️ Old Redux | 🚀 Redux Toolkit |
+|:---|:---|
+| You have to configure Redux DevTools Extension explicitly. | Provides automatic support for Redux DevTools Extension. |
+| Manually handle and change state **immutably**. | Supports **Immer.js** to handle immutable updates automatically. |
+| Configuring a Redux store is complicated. | Store configuration is much easier with built-in middleware support. |
+| Need to create reducers and action creators separately → **lots of boilerplate**. | `createSlice()` combines actions and reducers together easily. |
+| Handling asynchronous requests and errors was manual and tedious. | `createAsyncThunk()` simplifies handling async requests. |
+| Class-based implementation. | Functional implementation with **Hooks** and **TypeScript** support. |
+
+---
+
 # 🔧 1. Setup
 Install necessary packages:
 ```bash
